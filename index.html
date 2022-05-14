@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
+    
 </head>
 <body>
     <!--main-->
-    <div>
+    <div class="main">
         <!--Main content-->
-        <div>
+        <div class="main-content">
             <!--About user-->
-            <div>
+            <div class="about">
             <h2>Front-End Developer</h2>
             <h1>Anton Chornyi</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
             </div>
             <!--Projects-->
-            <div>
-                <h3>Projects</h3>
+            <div class="projects">
+                <h3 class="project-title">Projects</h3>
                 <ol>
                     <li>
                         <a href="https://hellenglish.goit.global/">https://hellenglish.goit.global/</a>
@@ -39,7 +44,7 @@
                 </ol>
             </div>
             <!--Work-->
-            <div>
+            <div class="work">
                 <h3>Work Experience</h3>
                 <!--Company 1-->
                 <div>
@@ -74,7 +79,7 @@
                 </div>
             </div>
             <!--Education-->
-            <div>
+            <div class="education">
                 <h3>Education</h3>
                 <p>National University of Radioelectronics</p>
                 <p>Management</p>
@@ -82,37 +87,41 @@
             </div>
         </div>
         <!--Sidebar-->
-        <aside>
-            <img src="/img/photo.jpg" alt="user photo" width="300">
+        <aside class="sidebar">
+            <img src="/img/photo.jpg" alt="user photo" class="foto">
             <!--Contacts-->
-            <div>
-                <h3>Contacts</h3>
+            <div class="contacts">
+                <h3 class="sidebar-title">Contacts</h3>
                 <div>
-                    <p>C:<a href="tel:+77777777777">+7 777 777 77 77</a></p>
-                    <p>E:<a href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a> </p>
+                    <p>
+                        <span class="contact-type">C:</span><a href="tel:+77777777777" class="contact-link">+7 777 777 77 77</a>
+                    </p>
+                    <p>
+                        <span class="contact-type">E:</span> <a href="mailto:chornyiav@gmail.com" class="contact-link">chornyiav@gmail.com</a>
+                    </p>
                 </div>
             </div>
             <!--Tech skills-->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
+            <div class="tech-skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"><span class="tech-skills-text">HTML5</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">CSS3</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">GIT</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">WebPack</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">JavaScript</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">React.js</span></li>
+                    <li class="tech-skills-item"><span class="tech-skills-text">Node.js</span></li>
                 </ul>
             </div>
             <!--Soft skills-->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
+            <div class="soft-skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li class="soft-skills-item"><span class="soft-skills-text">Scrum</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">Agile</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">GTD</span></li>
+                    <li class="soft-skills-item"><span class="soft-skills-text">Teamwork</span></li>
                 </ul>
             </div>
         </aside>
